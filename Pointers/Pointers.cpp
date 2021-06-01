@@ -9,7 +9,7 @@ void pointer() {
     int x = 25;
     int* p = &x; // where & is the address
 
-    // cout << p << endl;
+    // cout << p <<  endl;
     // cout << *p << endl;     // this will print the value based on the POINTER
 
     // dereferencing pointer p
