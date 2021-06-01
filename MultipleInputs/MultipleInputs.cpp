@@ -2,6 +2,8 @@
 
 using namespace std;
 
+
+// this includes function overloading, throws "ambiguous" if no type
 void print(double d) {
     cout << d << " double" << endl;
 }
@@ -17,6 +19,7 @@ int main() {
 
     print(200);
     print("Dog");
-    print(200.2412413);
+    print(3e-2);
+
 
 }
