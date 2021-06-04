@@ -23,7 +23,7 @@ void accept2() {
 
     cout << "y/n?" << endl;
 
-    char answer = 0; // q = does have to = 0?
+    char answer = 0;
 
     cin >> answer;
 
