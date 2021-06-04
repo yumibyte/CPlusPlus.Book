@@ -7,13 +7,19 @@ void print() {
     int v[] = {0, 1, 2, 3, 4, 5};
     int values[] = {10, 21, 32, 43, 54, 64};
 
-    for (auto x : v)  
+    for (auto& x : v)  
         cout << x << '\n';
     
+    cout << "SPACE" << endl;
     for (auto x : values) 
         cout << x << '\n';
     
 }
+
+ 
+
+// note that &, *, and [] are DECLARATOR OPERATORS
+// null REFERENCES don't exist. Nullpnters do
 
 int main() {
     /**
