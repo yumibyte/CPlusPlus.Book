@@ -15,6 +15,10 @@ bool accept() {
 
 }
 
+// note that if you take an input and want to make
+// sure it's not a nullptr you can check by
+// if(auto n = v.size() )
+
 void accept2() {
 
     cout << "y/n?" << endl;
