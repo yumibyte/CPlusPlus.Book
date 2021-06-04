@@ -15,9 +15,34 @@ bool accept() {
 
 }
 
+void accept2() {
+
+    cout << "y/n?" << endl;
+
+    char answer = 0; // q = does have to = 0?
+
+    cin >> answer;
+
+    switch (answer) {
+        case 'y':
+            cout << "yes" << endl;
+            break;
+        case 'n':
+            cout << "no" << endl;
+            break;
+        default:
+            cout << "I'll take that as a no!" << endl;
+    }
+        
+
+
+}
+
+
+
 int main() {
 
-    accept();
+    accept2();
 
 
 }
