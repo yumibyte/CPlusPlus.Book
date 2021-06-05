@@ -2,7 +2,7 @@
 
 using namespace std;
 
-bool accept() {
+void accept() {
 
     cout << "do you want to proceed (y/n)" << endl;
     char answer = 0;
@@ -26,6 +26,8 @@ void accept2() {
     char answer = 0;
 
     cin >> answer;
+
+
 
     switch (answer) {
         case 'y':
